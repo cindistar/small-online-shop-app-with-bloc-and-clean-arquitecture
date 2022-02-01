@@ -13,7 +13,7 @@ It makes use of freezed and the flutter_bloc package for state management, follo
 
 # App Overview
   
-The application is composed by 3 main sections: overview, detail and cart screens.
+This application is composed by 3 main sections: overview, detail and cart screens.
 The first one shows a list of available fake products. The second one displays the details
 about each product and the final one shows the subtotal, total amount and functions like
 increase, decrease and remove product.
