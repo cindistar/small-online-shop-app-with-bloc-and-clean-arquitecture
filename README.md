@@ -1,10 +1,7 @@
-# online_shop_app
+# Online Shop App with Clean Architecture, Bloc and Freezed
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+The aplication is a small online shop app with a product overview page, a product detail page and a shopping basket. 
+It makes use of freezed and the flutter_bloc package for state management, following the clean architecture pattern.
 
 <p float="left">
   <img src="web/icons/cart_1.png" width="250" />
