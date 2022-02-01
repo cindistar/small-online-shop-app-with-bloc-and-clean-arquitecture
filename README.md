@@ -9,3 +9,4 @@ It makes use of freezed and the flutter_bloc package for state management, follo
   <img src="web/icons/cart_3.png" width="250" />
   <img src="web/icons/cart_4.png" width="250" />
   <img src="web/icons/cart_5.png" width="250" />
+  <img src="web/icons/cart_6.png" width="250" />
