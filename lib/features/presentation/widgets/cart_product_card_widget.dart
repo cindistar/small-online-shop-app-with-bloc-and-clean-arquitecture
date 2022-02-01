@@ -98,10 +98,7 @@ class _CartProductCardWidgetState extends State<CartProductCardWidget> {
                     child: IconButton(
                       icon: const Icon(Icons.add_circle),
                       onPressed: () {
-                        setState(() => cubit.adding(widget.product));
-                        setState(() {
-                          
-                        });
+                        cubit.adding(widget.product);
                       },
                     ),
                   ),
@@ -131,6 +128,19 @@ class _CartProductCardWidgetState extends State<CartProductCardWidget> {
                       },
                       icon: const Icon(
                         Icons.remove_circle,
+                      ),
+                    ),
+                  ),
+                ),
+                Positioned(
+                  right: 5,
+                  child: Container(
+                    child: IconButton(
+                      onPressed: () {
+                        cubit.remove(widget.product);
+                      },
+                      icon: const Icon(
+                        Icons.delete_sweep_outlined
                       ),
                     ),
                   ),
